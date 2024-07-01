@@ -27,6 +27,8 @@ public class NUMBER_GAME {
 
     }
     public static void main(String[] args) {
+        System.out.println("let start the game");
+        System.out.println(".....................................................................");
 NUMBER_GAME ob1=new NUMBER_GAME();
         Scanner sc=new Scanner(System.in);
 ob1.cpunum();
@@ -34,6 +36,7 @@ Boolean  t=true;
 while (t){
     boolean ans=ob1.persion(sc.nextInt());
     t=ans;
+    System.out.println("..........................................................................");
 }
     }
 }
