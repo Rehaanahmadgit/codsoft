@@ -1,2 +1,0 @@
-public class STUDENT_GRADE_CALCULATOR {
-}
