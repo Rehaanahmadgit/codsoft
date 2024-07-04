@@ -24,7 +24,8 @@ int tot=0;
             System.out.println("enter your roll no.");
             int rollnum=sc.nextInt();
           for (int j=0;j<sub;j++){
-                System.out.println("subject no. "+j+1+" enter the marks");
+
+                System.out.println("subject no. "+(j+1)+" enter the marks");
                 marks[j]=sc.nextInt();
             }
           for (int a=0;a<marks.length;a++){
@@ -38,6 +39,7 @@ int tot=0;
 
       for (data c:list){
           System.out.println("the student name is "+c.getName() +"\n and roll no. is "+c.getRoll()+"\n tottal marks "+c.getPersen()+"\n and the average marks "+c.getAvg()+"\n and grace "+c.getGrace());
+          System.out.println(".................................................................................");
       }
         }
 }
