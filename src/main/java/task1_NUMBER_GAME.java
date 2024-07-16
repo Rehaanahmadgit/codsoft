@@ -1,8 +1,7 @@
-import java.io.*;
 import java.util.Random;
 import java.util.Scanner;
 
-public class NUMBER_GAME {
+public class task1_NUMBER_GAME {
     int randomnum;
     int score =0;
     void cpunum(){
@@ -29,7 +28,7 @@ public class NUMBER_GAME {
     public static void main(String[] args) {
         System.out.println("let start the game");
         System.out.println(".....................................................................");
-NUMBER_GAME ob1=new NUMBER_GAME();
+task1_NUMBER_GAME ob1=new task1_NUMBER_GAME();
         Scanner sc=new Scanner(System.in);
 ob1.cpunum();
 Boolean  t=true;

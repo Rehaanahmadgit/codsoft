@@ -1,4 +1,4 @@
-package atm;
+package task3_atm;
 import java.sql.SQLException;
 public class mainatm {
 
